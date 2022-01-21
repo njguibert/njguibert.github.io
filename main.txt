@@ -1,0 +1,1 @@
+Write-Host "Estas loggeado con: \$env:UserName"
