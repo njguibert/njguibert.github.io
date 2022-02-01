@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
             	retry(3){
-            		bat 'pwd && go build C:\Users\jesus.guibert\go\helloworld\main.go'
+            		bat 'pwd'
             	}
             timeout(time: 3, unit: 'MINUTES') {
                     bat 'echo ya espere 3 minuto'
