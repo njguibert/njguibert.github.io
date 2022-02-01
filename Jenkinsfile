@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
             	retry(3){
-            		bat 'echo holajesus'
+            		bat 'nada'
             	}
             timeout(time: 3, unit: 'MINUTES') {
                     bat 'echo ya espere 3 minuto'
