@@ -1,1 +1,1 @@
-Write-Host "Estas loggeado  usuario: $env:UserName"
+Write-Host "Estas loggeadoa  usuario: $env:UserName"
