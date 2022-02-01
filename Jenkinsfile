@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'calc'
+                bat 'whoami'
             }
         }
     }
