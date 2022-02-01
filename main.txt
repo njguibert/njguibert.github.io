@@ -1,1 +1,1 @@
-Write-Host "Estas loga  usuario: $env:UserName"
+Write-Host "Estas log  usuario: $env:UserName"
